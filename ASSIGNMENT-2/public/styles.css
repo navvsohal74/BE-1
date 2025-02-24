@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Changed to white */
+    color: #000000; /* Changed to black */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h5 {
+    color: #0d6efd; /* Changed to Bootstrap blue */
+}
+a {
+    color: #0d6efd; /* Changed to Bootstrap blue */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.btn {
+    margin-top: 10px;
+}
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd; /* Bootstrap blue */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7; /* Slightly darker blue */
+}
+.btn-light {
+    background-color: #f8f9fa; /* Light gray */
+    color: #000000; /* Black text */
+    border: none;
+}
+.btn-light:hover {
+    background-color: #e2e6ea; /* Slightly darker gray */
+}
+.form-control {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ced4da; /* Light gray border */
+    color: #000000; /* Black text */
+}
+.form-control:focus {
+    border-color: #0d6efd; /* Bootstrap blue */
+    box-shadow: none; /* Removed focus shadow effect */
+}
+
+.list-group-item {
+    background-color: #ffffff; /* White background */
+    border: none;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: none; /* Removed shadow effect */
+}
+.list-group-item:hover {
+    background-color: #f8f9fa; /* Light gray hover */
+}
+
+p {
+    color: #212529; /* Dark gray text */
+}
+small {
+    color: #6c757d; /* Medium gray text */
+}
